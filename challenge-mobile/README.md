@@ -17,7 +17,7 @@ The application should consists of three screens:
 
 1. Store details & products screen:
    - Fetch the store detail from `/storeInfo` endpoint and display them in the upper part of the screen.
-   - Fetch the list of products from `/products` endpoint and display them in a scrollable list with pagination below store detail section.
+   - Fetch the list of products from `/products` endpoint and display them in a scrollable list below store detail section.
    - Add an ability for the user to select product(s). 
      - *Skills Challenge*: It is your choice on how you'd like to build this feature and the skills you'd like to demonstrate to us. 
        You could allow:
@@ -42,7 +42,6 @@ The application should consists of three screens:
 * Code is loosely coupled and uses an architecture simliar to MVVM, CLEAN, VIPER, MVP, etc.
 * Handles HTTP status codes properly.
 * Follow recommended UI/UX principles.
-* Manual pagination is required.
 * Unit tests.
 * (Bonus) UI tests.
 
